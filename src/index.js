@@ -13,7 +13,7 @@ import logo from "./react-logo.svg"
 //     </nav>
 // )
 
-function DisplayPage() {
+function Page() {
     return (
         <div>
             <header>
@@ -36,8 +36,8 @@ function DisplayPage() {
     )
 }
 
-console.log(<DisplayPage />)
+console.log(<Page />)
 
 ReactDOM.render(
-    <DisplayPage />,
+    <Page />,
     document.getElementById("root")) // ReactDOM.append would result in printing DOM elements that are not real
