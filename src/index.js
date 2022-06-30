@@ -16,6 +16,19 @@ function Page() {
     return (
         <div>
             <Header />
+            <Footer />
+        </div>
+    )
+}
+
+function Footer() {
+    return (
+        <footer>
+            <small>© 2021 Pedro Mota development. All rights reserved.</small>
+        </footer>
+    )
+}
+
             <h1>Fun Facts about React</h1>
             <ol>
                 <li>Was first released in 2013</li>
@@ -24,9 +37,6 @@ function Page() {
                 <li>Is maintained by Facebook</li>
                 <li>Powers thousands of enterprise apps, including mobile apps</li>
             </ol>
-            <footer>
-                <small>© 2021 Pedro Mota development. All rights reserved.</small>
-            </footer>
         </div>
     )
 }
