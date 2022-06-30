@@ -16,6 +16,7 @@ function Page() {
     return (
         <div>
             <Header />
+            <MainContent />
             <Footer />
         </div>
     )
@@ -29,6 +30,9 @@ function Footer() {
     )
 }
 
+function MainContent() {
+    return (
+        <div>
             <h1>Fun Facts about React</h1>
             <ol>
                 <li>Was first released in 2013</li>
