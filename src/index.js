@@ -2,14 +2,20 @@ import React from "react"
 import ReactDOM from "react-dom"
 import logo from "./react-logo.svg"
 
+function Header() {
+    return(
+        <header>
+            <nav>
+                <img src={logo} width = "100px"/>
+            </nav>
+        </header>
+    )
+}
+
 function Page() {
     return (
         <div>
-            <header>
-                <nav>
-                    <img src={logo} width = "100px"/>
-                </nav>
-            </header>
+            <Header />
             <h1>Fun Facts about React</h1>
             <ol>
                 <li>Was first released in 2013</li>
