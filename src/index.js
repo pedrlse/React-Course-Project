@@ -16,7 +16,11 @@ import logo from "./react-logo.svg"
 function DisplayPage() {
     return (
         <div>
-            {/* <img src={logo} width = "100px"/> */}
+            <header>
+                <nav>
+                    <img src={logo} width = "100px"/>
+                </nav>
+            </header>
             <h1>Fun Facts about React</h1>
             <ol>
                 <li>Was first released in 2013</li>
@@ -25,6 +29,9 @@ function DisplayPage() {
                 <li>Is maintained by Facebook</li>
                 <li>Powers thousands of enterprise apps, including mobile apps</li>
             </ol>
+            <footer>
+                <small>© 2021 Pedro Mota development. All rights reserved.</small>
+            </footer>
         </div>
     )
 }
