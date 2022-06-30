@@ -2,17 +2,6 @@ import React from "react"
 import ReactDOM from "react-dom"
 import logo from "./react-logo.svg"
 
-// const navbar = (
-//     <nav>
-//         <h1>Bob's Bistro</h1>
-//         <ul>
-//             <li>Menu</li>
-//             <li>About</li>
-//             <li>Contact</li>
-//         </ul>
-//     </nav>
-// )
-
 function Page() {
     return (
         <div>
