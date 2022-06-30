@@ -1,4 +1,5 @@
-
+import React from "react"
+import ReactDOM from "react-dom"
 
 const navbar = (
     <nav>
@@ -10,8 +11,6 @@ const navbar = (
         </ul>
     </nav>
 )
-
-console.log(page)
 
 console.log(navbar)
 
