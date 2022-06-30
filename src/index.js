@@ -1,5 +1,6 @@
 import React from "react"
 import ReactDOM from "react-dom"
+import logo from "./react-logo.svg"
 
 // const navbar = (
 //     <nav>
@@ -14,6 +15,7 @@ import ReactDOM from "react-dom"
 
 const page = (
     <div>
+        <img src={logo} width = "40px"/>
         <h1>My awesome website in React</h1>
         <h3>Reasons I love React</h3>
         <ol>
@@ -29,4 +31,4 @@ console.log(page)
 
 ReactDOM.render(
     page,
-    document.getElementById("root"))
+    document.getElementById("root")) // ReactDOM.append would result in printing DOM elements that are not real
