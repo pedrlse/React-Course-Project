@@ -1,23 +1,7 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import css from "./index.css"
-import Header from "./Navbar"
-import Footer from "./Footer"
-import MainContent from "./MainContent"
-
-
-function Page() {
-    return (
-        <div>
-            <Header />
-            <MainContent />
-            <Footer />
-        </div>
-    )
-}
-
-console.log(<Page />)
+import App from "./App"
 
 ReactDOM.render(
-    <Page />,
+    <App />,
     document.getElementById("root")) // ReactDOM.append would result in printing DOM elements that are not real
