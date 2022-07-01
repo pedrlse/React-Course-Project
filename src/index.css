@@ -6,6 +6,7 @@
 .nav-items {
   list-style: none;
   display: flex;
+  font-size: 20px;
 }
 
 .nav-items > li {
@@ -13,5 +14,13 @@
 }
 
 .nav-logo {
-  width: 100px;
+  width: 120px;
+}
+
+.main-content {
+  padding-left: 25px;
+}
+
+.footer {
+  padding-left: 25px;
 }

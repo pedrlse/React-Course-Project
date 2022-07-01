@@ -30,7 +30,7 @@ function Page() {
 
 function Footer() {
     return (
-        <footer>
+        <footer className="footer">
             <small>© 2021 Pedro Mota development. All rights reserved.</small>
         </footer>
     )
@@ -38,7 +38,7 @@ function Footer() {
 
 function MainContent() {
     return (
-        <div>
+        <div className="main-content">
             <h1>Fun Facts about React</h1>
             <ol>
                 <li>Was first released in 2013</li>
