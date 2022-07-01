@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../react-logo.svg";
+import logo from "../react-icon-small.png";
 
 export default function Header() {
   return (
