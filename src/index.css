@@ -20,16 +20,13 @@
     position: absolute;
     width: 178.06px;
     height: 25.81px;
-    left: 186px;
-    top: 382px;
-
+    left: 70px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 25px;
     line-height: 30px;
     text-align: center;
-
     color: #FFFFFF;
 }
 
@@ -37,9 +34,8 @@
     position: absolute;
     width: 178.06px;
     height: 14.19px;
-    left: 186px;
-    top: 425px;
-
+    left: 70px;
+    top: 35px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -54,16 +50,14 @@
     position: absolute;
     width: 228px;
     height: 16px;
-    left: 161px;
-    top: 445px;
-
+    left: 45px;
+    top: 55px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 150%;
     text-align: center;
-
     color: white;
 }
 
@@ -78,8 +72,8 @@
     position: absolute;
     width: 115px;
     height: 34;
-    left: 151px;
-    top: 480px;
+    left: 40px;
+    top: 100px;
     background: white;
     border: 1px solid #d1d5db;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
@@ -111,23 +105,24 @@
     position: absolute;
     width: 115px;
     height: 34;
-    left: 280px;
-    top: 480px;
-    background: white;
+    left: 170px;
+    top: 100px;
+    background: #5093E2;
     border: 1px solid #d1d5db;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
 }
 
 .button--linkedin > h1 {
-    width: 50px;
+    position: relative;
+    width: 25px;
     height: 16px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    color: #374151;
+    color: white;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -146,8 +141,8 @@ main {
     position: absolute;
     width: 242.71px;
     height: 21px;
-    left: 152px;
-    top: 535px;
+    left: 40px;
+    top: 180px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -160,8 +155,8 @@ main {
     position: absolute;
     width: 242.71px;
     height: 21px;
-    left: 152px;
-    top: 625px;
+    left: 40px;
+    top: 280px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -174,8 +169,8 @@ main > p {
     position: absolute;
     width: 247px;
     height: 61px;
-    left: 152px;
-    top: 561px;
+    left: 40px;
+    top: 215px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -189,7 +184,7 @@ main > p {
     width: 317px;
     height: 64px;
     left: 116px;
-    top: 804px;
+    top: 760px;
     background: #161619;
     border-radius: 0px 0px 10px 10px;
 }
@@ -221,4 +216,13 @@ main > p {
     left: 75%;
     top: 35%;
     bottom: 8%
+}
+
+.linkedin {
+    position: absolute;
+    left: 8.33%;
+    right: 8.33%;
+    top: 20.33%;
+    bottom: 8.33%;
+    width: 30px;
 }
