@@ -58,6 +58,11 @@ main {
   padding-block: 10px;
 }
 
+.main--facts > li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
+}
+
 .footer {
   padding-left: 25px;
 }
