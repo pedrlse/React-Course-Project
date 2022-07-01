@@ -174,3 +174,42 @@ main > p {
     line-height: 150%;
     color: #DCDCDC;
 }
+
+.icons {
+    position: absolute;
+    width: 317px;
+    height: 64px;
+    left: 116px;
+    top: 804px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.twitter {
+    position: absolute;
+    left: 15%;
+    top: 35%;
+    bottom: 8%
+
+}
+
+.github {
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    bottom: 8%
+}
+
+.facebook {
+    position: absolute;
+    left: 55%;
+    top: 35%;
+    bottom: 8%
+}
+
+.instagram {
+    position: absolute;
+    left: 75%;
+    top: 35%;
+    bottom: 8%
+}
