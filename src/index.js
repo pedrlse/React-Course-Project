@@ -2,6 +2,7 @@ import React from "react"
 import ReactDOM from "react-dom"
 import css from "./index.css"
 import Header from "./Header"
+import Footer from "./Footer"
 
 
 function Page() {
@@ -11,14 +12,6 @@ function Page() {
             <MainContent />
             <Footer />
         </div>
-    )
-}
-
-function Footer() {
-    return (
-        <footer className="footer">
-            <small>© 2021 Pedro Mota development. All rights reserved.</small>
-        </footer>
     )
 }
 
