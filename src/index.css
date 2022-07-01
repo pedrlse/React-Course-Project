@@ -40,6 +40,9 @@ nav {
 main {
   padding: 57px 27px;
   color: white;
+  background-image: url(./react-icon-large.png);
+  background-repeat: no-repeat;
+  background-position: right 75%;
 }
 
 .main--title {
@@ -65,4 +68,5 @@ main {
 
 .footer {
   padding-left: 25px;
+  color: white;
 }
