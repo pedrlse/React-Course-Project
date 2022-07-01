@@ -16,7 +16,7 @@
     background: #23252C;
 }
 
-.nav--name {
+.main--name {
     position: absolute;
     width: 178.06px;
     height: 25.81px;
@@ -33,7 +33,7 @@
     color: #FFFFFF;
 }
 
-.nav--job {
+.main--job {
     position: absolute;
     width: 178.06px;
     height: 14.19px;
@@ -50,7 +50,7 @@
     color: #F3BF99;
 }
 
-.nav--website {
+.main--website {
     position: absolute;
     width: 228px;
     height: 16px;
@@ -131,6 +131,15 @@
     flex: none;
     order: 1;
     flex-grow: 0;
+}
+
+main {
+    position: absolute;
+    width: 317px;
+    height: 399px;
+    left: 116px;
+    top: 361px;
+    background: #1A1B21;
 }
 
 .main--about {
