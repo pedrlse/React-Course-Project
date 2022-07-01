@@ -7,7 +7,7 @@ function Header() {
     return(
         <header>
             <nav className="nav">
-                <img src={logo} width = "100px" />
+                <img src={logo} className="nav-logo"/>
                 <ul className="nav-items">
                     <li>Pricing</li>
                     <li>About</li>
