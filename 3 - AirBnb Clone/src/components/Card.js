@@ -1,9 +1,20 @@
 import React from "react";
 import katie from "../katie-zaferes.png";
+import star from "../star.png"
 
 export default function Card()
 {
     return (
-        <img src={katie}/>
+        <div className="card">
+            <img src={katie} className="card--image"/>
+            <div className="card--text">
+                <img src={star} className="card--star"/>
+                <span>5.0</span>
+                <span className="gray">(6) • </span>
+                <span className="gray">USA</span>
+            </div>
+            <p>Life Lessons with Katie Zaferes</p>
+            <p><span className="bold">From $136</span></p>
+        </div>
     )
 }
