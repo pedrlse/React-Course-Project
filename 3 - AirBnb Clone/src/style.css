@@ -65,3 +65,10 @@ section {
 .card--star {
   height: 14px;
 }
+
+.cards--list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
