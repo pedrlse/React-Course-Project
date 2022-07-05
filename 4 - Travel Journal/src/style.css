@@ -22,3 +22,11 @@ h2 {
   letter-spacing: -0.075em;
   color: #FFFFFF;
 }
+
+.navbar--logo {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 210px;
+  top: 16px;
+}
