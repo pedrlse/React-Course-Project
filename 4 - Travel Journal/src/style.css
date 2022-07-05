@@ -1,3 +1,24 @@
 * {
   box-sizing: border-box;
 }
+
+nav {
+  position: absolute;
+  width: 550px;
+  height: 55px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  background: #F55A5A;
+}
+
+h2 {
+  position: absolute;
+  width: 120px;
+  height: 16px;
+  left: 244px;
+  top: 2px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  color: #FFFFFF;
+}
