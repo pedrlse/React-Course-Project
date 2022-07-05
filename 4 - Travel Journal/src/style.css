@@ -38,3 +38,94 @@ h2 {
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
   background: #E5E5E5;
 }
+
+.card--image {
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-right: 30px;
+  width: 30%;
+  height: 30%;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+.card--title {
+  position: absolute;
+  width: 326px;
+  height: 40px;
+  left: 220px;
+  top: 50px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2B283A;
+}
+
+.card--location {
+  position: absolute;
+  width: 40px;
+  height: 10px;
+  left: 230px;
+  top: 40px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: #2B283A;
+}
+
+.card--pointer {
+  position: absolute;
+  width: 7px;
+  height: 9.55px;
+  left: 220px;
+  top: 42px;
+}
+
+.card--url {
+  position: absolute;
+  width: 120px;
+  height: 13px;
+  left: 280px;
+  top: 40px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918E9B;
+}
+
+.card--date {
+  position: absolute;
+  width: 326px;
+  height: 40px;
+  left: 220px;
+  top: 100px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 30px;
+  color: #2B283A;
+}
+
+.card--text {
+  position: absolute;
+  width: 326px;
+  height: 40px;
+  left: 220px;
+  top: 140px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  color: #2B283A;
+}
