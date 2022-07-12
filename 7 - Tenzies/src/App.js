@@ -11,7 +11,9 @@ export default function App() {
         }
         return newDice
     }
-    console.log(allNewDice())
+    function rollDice () {
+        setDice(allNewDice())
+    }
 
     const diceElements = dice.map(die => <Die value={die}/>)
 
@@ -20,6 +22,7 @@ export default function App() {
             <div className="dice-container">
                 {diceElements}
             </div>
+            <button className="roll-dice" onClick={rollDice}>Reroll</button>
         </main>
     )
 }
