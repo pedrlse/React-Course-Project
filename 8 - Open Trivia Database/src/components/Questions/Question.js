@@ -1,22 +1,51 @@
 import { nanoid } from "nanoid";
 import { decode } from "html-entities";
+import React, { useState, useEffect } from "react";
 
 export default function Question(props) {
 
-    const incorrectAnswers = props.incorrectAnswers.map(answer => (
-        <button key={nanoid()} className="main--button">{decode(answer)}</button>
-    ));
+	const incorrectAnswersElements = props.incorrectAnswers.map(answer => {
+		const incorrectAnswerClassName = `
+			${props.selectedAnswer === answer ? "question-btn-selected" : "question-btn"}
+			${(props.showAnswer && props.selectedAnswer === answer) && "question-btn-incorrect"}
+		`;
+		return <button
+			key={nanoid()}
+			className={incorrectAnswerClassName}
+			onClick={() => props.handleSelectAnswer(props.id, answer)}
+		>
+			{ decode(answer) }
+		</button>
+	});
+    
+    const [sortAnswersArray, setSortAnswersArray] = useState(true);
 
-    const correctAnswer = <button key={nanoid()} className="main--button">{decode(props.correctAnswer)}</button>
+	useEffect(() => setSortAnswersArray(false), []);
 
-    incorrectAnswers.push(correctAnswer);
+	const correctAnswerClassName = `
+		${props.selectedAnswer === props.correctAnswer ? "question-btn-selected" : "question-btn"}
+		${props.showAnswer && "question-btn-correct"}
+	`;
 
-    let answersElements = incorrectAnswers.sort(() => Math.random());
+	const correctAnswerElement =
+		<button
+			key={nanoid()}
+			className={correctAnswerClassName}
+			onClick={() => props.handleSelectAnswer(props.id, props.correctAnswer)}
+		>
+			{ decode(props.correctAnswer) }
+		</button>
+	
+	incorrectAnswersElements.push(correctAnswerElement);
 
-    return (
-        <article className="question--container">
-            <h3 className="main--title">{decode(props.question)}</h3>
-            {answersElements}
-        </article>
-    );
+	const answersElements = sortAnswersArray
+		? incorrectAnswersElements.sort(() => Math.random() - 0.5)
+		: incorrectAnswersElements;
+
+	return (
+		<article className="question-container">
+			<h3 className="question-text">{ decode(props.question) }</h3>
+			{ answersElements }
+		</article>
+	);
 }
