@@ -38,9 +38,9 @@ export default function Question(props) {
 	
 	incorrectAnswersElements.push(correctAnswerElement);
 
-	const answersElements = sortAnswersArray
-		? incorrectAnswersElements.sort(() => Math.random() - 0.5)
-		: incorrectAnswersElements;
+	const answersElements = incorrectAnswersElements.sort((a,b) => (
+		a.props.children.localeCompare(b.props.children))
+		);
 
 	return (
 		<article className="question-container">
